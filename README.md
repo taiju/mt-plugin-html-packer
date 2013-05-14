@@ -9,33 +9,33 @@ __Input:__
     <mt:MinifyHTML>
     <ul>
       <li>
-        <a href="\#foo">foo</a>
+        <a href="#foo">foo</a>
       </li>
       <li>
-        <a href="\#bar">bar</a>
+        <a href="#bar">bar</a>
       </li>
       <li>
-        <a href="\#baz">baz</a>
+        <a href="#baz">baz</a>
       </li>
     </ul>
     </mt:MinifyHTML>
 
 __Output:__
 
-    <ul><li> <a href="\#foo">foo</a> </li><li> <a href="\#bar">bar</a> </li><li> <a href="\#baz">baz</a> </li></ul>
+    <ul><li> <a href="#foo">foo</a> </li><li> <a href="#bar">bar</a> </li><li> <a href="#baz">baz</a> </li></ul>
 
 __Input:__
 
     <mt:SetVarBlock name="mylist">
     <ul>
       <li>
-        <a href="\#foo">foo</a>
+        <a href="#foo">foo</a>
       </li>
       <li>
-        <a href="\#bar">bar</a>
+        <a href="#bar">bar</a>
       </li>
       <li>
-        <a href="\#baz">baz</a>
+        <a href="#baz">baz</a>
       </li>
     </ul>
     </mt:SetVarBlock>
@@ -44,7 +44,7 @@ __Input:__
 
 __Output:__
 
-    <ul><li> <a href="\#foo">foo</a> </li><li> <a href="\#bar">bar</a> </li><li> <a href="\#baz">baz</a> </li></ul>
+    <ul><li> <a href="#foo">foo</a> </li><li> <a href="#bar">bar</a> </li><li> <a href="#baz">baz</a> </li></ul>
 
 # DESCRIPTION
 
