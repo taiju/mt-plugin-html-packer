@@ -1,0 +1,12 @@
+id: htmlpacker
+name: HTMLPacker
+version: 1.0
+author_name: taju
+author_link: http://twitter.com/taiju
+description: Another HTML code cleaner by a Perl module HTML::Packer
+
+tags:
+  block:
+    MinifyHTML: $htmlpacker::HTMLPacker::Tags::_minifyhtml_block
+  modifier:
+    minifyhtml: $htmlpacker::HTMLPacker::Tags::_minifyhtml_modifier
